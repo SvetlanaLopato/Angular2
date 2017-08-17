@@ -1,5 +1,6 @@
-import { Component } from './component';
+import './polyfills';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-let variable: number = 5;
-
-console.log('type of variable:', typeof variable);
+// import { AppComponent } from './app/app.component';
+//
+// platformBrowserDynamic().bootstrapModule(AppComponent);

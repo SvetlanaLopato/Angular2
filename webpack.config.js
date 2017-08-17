@@ -49,7 +49,7 @@ module.exports = {
 
     plugins: [
         new HtmlWebpackPlugin({
-            template: './app.html',
+            template: './index.html',
         }),
 
         new webpack.optimize.CommonsChunkPlugin({
